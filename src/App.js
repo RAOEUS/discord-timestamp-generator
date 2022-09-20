@@ -100,7 +100,7 @@ function App() {
                 </tr>
                 <tr>
                   <td>Long Time</td>
-                  <td><button className="rainbow-button" onClick={(e) => { navigator.clipboard.writeText(getDiscordString('shortTime')); notify(e); }}>{getDiscordString('longTime')}</button></td>
+                  <td><button className="rainbow-button" onClick={(e) => { navigator.clipboard.writeText(getDiscordString('longTime')); notify(e); }}>{getDiscordString('longTime')}</button></td>
                   <td>{moment(dateTime).format('h:mm:ss A')}</td>
                   <td>{moment(dateTime).format('HH:mm:ss')}</td>
                 </tr>
