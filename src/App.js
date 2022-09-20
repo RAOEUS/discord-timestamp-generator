@@ -88,7 +88,7 @@ function App() {
                 </tr>
                 <tr>
                   <td>Default</td>
-                  <td><button className="rainbow-button" onClick={(e) => { navigator.clipboard.writeText(getDiscordString('default')) }}>{getDiscordString('default')}</button></td>
+                  <td><button className="rainbow-button" onClick={(e) => { navigator.clipboard.writeText(getDiscordString('default')); notify(e); }}>{getDiscordString('default')}</button></td>
                   <td>{moment(dateTime).format('MMMM D YYYY, h:mm A')}</td>
                   <td>{moment(dateTime).format('MMMM D YYYY, HH:mm')}</td>
                 </tr>
