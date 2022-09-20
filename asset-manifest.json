@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/discord-timestamp-generator/static/css/main.4b59414a.css",
+    "main.js": "/discord-timestamp-generator/static/js/main.6aba6cff.js",
+    "static/js/787.ec642e93.chunk.js": "/discord-timestamp-generator/static/js/787.ec642e93.chunk.js",
+    "index.html": "/discord-timestamp-generator/index.html",
+    "main.4b59414a.css.map": "/discord-timestamp-generator/static/css/main.4b59414a.css.map",
+    "main.6aba6cff.js.map": "/discord-timestamp-generator/static/js/main.6aba6cff.js.map",
+    "787.ec642e93.chunk.js.map": "/discord-timestamp-generator/static/js/787.ec642e93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b59414a.css",
+    "static/js/main.6aba6cff.js"
+  ]
+}
